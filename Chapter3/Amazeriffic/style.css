@@ -1,5 +1,5 @@
 body {
-  background: #f9e933;
+  background: tomato;
 }
 
 header, main, footer {
@@ -8,7 +8,7 @@ header, main, footer {
 
 header .container, main .container, footer .container {
   max-width: 855px;
-  margin: auto;
+  margin:auto;
 }
 
 header {
@@ -16,9 +16,31 @@ header {
   overflow: auto;
 }
 
-header h1 {
+h1 {
   float: left;
   width: 570px;
+  color: cornflowerblue;
+  font-family: 'Arvo', serif;
+}
+
+h2 {
+  width: 570px;
+  color: cornflowerblue;
+  font-family: 'Arvo', serif;
+
+}
+h5 {
+  color: cornflowerblue;
+  font-family: 'Arvo', serif;
+}
+
+h3{
+  color: cornflowerblue;
+  font-family: 'Arvo', serif;
+}
+
+p {
+  font-family: 'Arvo', serif;
 }
 
 header nav {
@@ -45,8 +67,63 @@ footer .left {
   float: left;
   width: 570px;
 }
-
 footer .sitemap {
   float: right;
   width: 285px;
 }
+
+.main1, .main2 {
+  border: 5px solid maroon;
+  padding: 5px;
+}
+
+/* SIGN-UP PAGE */
+.main1 {
+  padding: -2%;
+  overflow: auto;
+}
+
+footer .sitemap1 {
+  float: right;
+  width: 285px;
+  margin-top: -160px;
+}
+
+.textbox{
+  width: 25%;
+  height: 20px;
+  font-family: 'Arvo', serif;
+  margin-bottom:20px;
+}
+
+.button {
+  width: 8%;
+  height: 50px;
+  font-family: 'Arvo', serif;
+  margin-top: -100px;
+  color : cornflowerblue;
+}
+
+.first {
+  height:350px;
+}
+
+/* FAQ PAGE */
+.main2 {
+  padding: -2%;
+  overflow: auto;
+}
+
+footer .sitemap2
+{
+  float: right;
+  width: 285px;
+  margin-top: -160px;
+}
+
+.second {
+  height:350px;
+}
+
+
+
